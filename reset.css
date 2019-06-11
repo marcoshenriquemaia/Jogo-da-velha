@@ -25,6 +25,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	display: flex;
+	background-color: var(--primaria);
+	font-family: 'Lato', sans-serif;
+	padding: 1%;
+	display: flex;
+	/* flex-wrap: wrap; */
 }
 ol, ul {
 	list-style: none;
